@@ -1,0 +1,35 @@
+
+package
+
+
+#validator
+isEmail => untuk mengecheck apakah string tersebut email atau bukan
+isNumeric => untuk mengecheck apakah string tersebut numeric semua tau bukan
+isMobilePhone => untuk mengecheck apakah notelpon tersebut sesuai dengan kode negara yang diatur
+
+
+Javascript & JSON
+find() => digunakan untuk mencari tiap-tiap keyword ada yang sama atau tidak di dalam sebuah Object atau array samapi bertemu dengan data yang sesuai
+filter() => digunakan untuk mencari tiap-tiap keyword ada yang sama atau tidak di dalam sebuah Object atau array sampai sebanyak jumlam Object atau array untuk untuk membuat array atau obejct baru
+toLowerCase() => digunakan untuk mengecilkan string
+split(' ')[1] => digunakan untuk membelah suatu string menjadi array berdasarkan pembatas nya
+
+Node
+Process.argv[1] => digunakan untuk mendapatkan argument di commaind promp
+
+yargs
+hadnler() => digunakan untuk mengambil data yang dikirim dari command promp
+
+#express
+express.Router() => digunakan untuk mengatur Router
+app.use() => digunakan untuk melakukan sebuah middleware untuk sebuahh route
+express.json() => digunakan untuk mengizinkan aada nya request yang di kirimkan berformat json
+req.body => digunakan untuk mengambil data yang dikirim kan request dari client
+req.headers['authorization'] => digunakan untuk mengambil token yang ada di header 
+res.cookie() => digunakan untuk menambahkan cookie kedalam header 
+res.clearCookie() => digunakan untuk membersihkan cookie yang ada didalam header 
+
+
+
+#cookieParser
+cookieParser() => digunakan untuk kita bisa mengambil cookies yang ada di header
